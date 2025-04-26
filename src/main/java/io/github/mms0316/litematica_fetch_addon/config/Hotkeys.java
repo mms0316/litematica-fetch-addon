@@ -17,8 +17,8 @@ public class Hotkeys
     public static final ConfigHotkey MATERIAL_LIST_CONTAINER_REGISTER       = new ConfigHotkey("materialListContainerRegister",         "", KeybindSettings.MODIFIER_GUI).apply(HOTKEYS_KEY);
     public static final ConfigHotkey MATERIAL_LIST_CONTAINER_UNREGISTER     = new ConfigHotkey("materialListContainerUnregister",       "").apply(HOTKEYS_KEY);
     public static final ConfigHotkey MATERIAL_LIST_CONTAINER_UNREGISTER_ALL = new ConfigHotkey("materialListContainerUnregisterAll",    "").apply(HOTKEYS_KEY);
-    public static final ConfigHotkey MATERIAL_LIST_FETCH                    = new ConfigHotkey("materialListFetch",                     "").apply(HOTKEYS_KEY);
-    public static final ConfigHotkey MATERIAL_LIST_FETCH_KEEP_STACKS        = new ConfigHotkey("materialListFetchKeepStacks",           "").apply(HOTKEYS_KEY);
+    public static final ConfigHotkey MATERIAL_LIST_FETCH                    = new ConfigHotkey("materialListFetch",                     "", KeybindSettings.MODIFIER_GUI).apply(HOTKEYS_KEY);
+    public static final ConfigHotkey MATERIAL_LIST_FETCH_KEEP_STACKS        = new ConfigHotkey("materialListFetchKeepStacks",           "", KeybindSettings.MODIFIER_GUI).apply(HOTKEYS_KEY);
 
     public static final List<ConfigHotkey> HOTKEY_LIST = ImmutableList.of(
             OPEN_CONFIG_GUI,
