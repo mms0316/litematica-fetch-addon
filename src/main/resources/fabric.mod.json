@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "litematica_fetch_addon",
+	"name": "Litematica Fetch Addon",
+	"version": "${mod_version}",
+
+	"description": "Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots",
+	"authors": [
+		"mms0316"
+	],
+	"contact": {
+		"homepage": "https://mms0316.github.io/",
+		"issues": "https://github.com/mms0316/litematica-fetch-addon/issues",
+		"sources": "https://github.com/mms0316/litematica-fetch-addon"
+	},
+
+	"license": "LGPLv3",
+	"icon": "assets/litematica_fetch_addon/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"io.github.mms0316.litematica_fetch_addon.LitematicaFetchAddon"
+		],
+		"modmenu": [
+			"io.github.mms0316.litematica_fetch_addon.compat.modmenu.ModMenuImpl"
+		]
+	},
+
+	"mixins": [
+		"mixins.litematica_fetch_addon.json"
+	],
+
+	"depends": {
+		"minecraft": "1.21.4",
+		"malilib": ">=0.23.2",
+		"litematica": ">=0.21.2"
+	}
+}

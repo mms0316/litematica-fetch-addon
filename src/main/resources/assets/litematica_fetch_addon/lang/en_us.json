@@ -1,0 +1,29 @@
+{
+    "litematica_fetch_addon.gui.title.configs": "Litematica Fetch Addon Configs - %s",
+
+    "litematica_fetch_addon.gui.button.config_gui.info_overlays": "Info Overlays",
+    "litematica_fetch_addon.gui.button.config_gui.hotkeys": "Hotkeys",
+    "litematica_fetch_addon.gui.button.config_gui.colors": "Colors",
+
+    "litematica_fetch_addon.config.info_overlays.name.materialListContainerOverlayEnabled": "materialListContainerOverlayEnabled",
+    "litematica_fetch_addon.config.info_overlays.comment.materialListContainerOverlayEnabled": "If enabled, shows Material List container overlays",
+
+    "litematica_fetch_addon.config.hotkeys.name.openConfigGui": "openConfigGui",
+    "litematica_fetch_addon.config.hotkeys.comment.openConfigGui": "Open the in-game config GUI",
+    
+    "litematica_fetch_addon.config.hotkeys.name.materialListContainerRegister": "materialListContainerRegister",
+    "litematica_fetch_addon.config.hotkeys.comment.materialListContainerRegister": "Register materials inside an opened container to be used for Material List",
+    "litematica_fetch_addon.config.hotkeys.name.materialListContainerUnregister": "materialListContainerUnregister",
+    "litematica_fetch_addon.config.hotkeys.comment.materialListContainerUnregister": "Unregister container used for Material List",
+    "litematica_fetch_addon.config.hotkeys.name.materialListContainerUnregisterAll": "materialListContainerUnregisterAll",
+    "litematica_fetch_addon.config.hotkeys.comment.materialListContainerUnregisterAll": "Unregister all containers used for Material List",
+    "litematica_fetch_addon.config.hotkeys.name.materialListFetch": "materialListFetch",
+    "litematica_fetch_addon.config.hotkeys.comment.materialListFetch": "Fetch materials required by the active Material List from an opened container",
+    "litematica_fetch_addon.config.hotkeys.name.materialListFetchKeepStacks": "materialListFetchKeepStacks",
+    "litematica_fetch_addon.config.hotkeys.comment.materialListFetchKeepStacks": "Fetch materials required by the active Material List from an opened container without filling empty slots",
+
+    "litematica_fetch_addon.config.colors.name.materialListFetchContainerColor": "materialListFetchContainerColor",
+    "litematica_fetch_addon.config.colors.comment.materialListFetchContainerColor": "The color of the containers overlay for Material List",
+
+    "modmenu.descriptionTranslation.litematica_fetch_addon": "Fetch materials required by the active Material List from an opened container"
+}
